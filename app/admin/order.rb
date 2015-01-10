@@ -1,4 +1,5 @@
 ActiveAdmin.register Order do
+  permit_params :quantity
 
 
   # See permitted parameters documentation:
