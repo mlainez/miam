@@ -1,4 +1,5 @@
 ActiveAdmin.register Menu do
+  permit_params :day
 
 
   # See permitted parameters documentation:
